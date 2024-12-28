@@ -1,0 +1,21 @@
+tailwind has predefined attributes. for specifying your own use []
+ex: text-lg  ----> predefined 
+    text-[50px] ----> custom
+
+position: --->   relative: moves a little bit wrt to other. others mostly static wrt this this
+                absolute: moves like a piece of puzzle , anywhere
+                fixed: locked  even after scrolling
+                sticky: acts like sticky note after scrolling    
+
+display: ----->      
+assets in src folder 
+for all exports put them in a folder. ex: components , put them in components folder, make an index.js, export from there, same goes for constants
+hamburger should be visible only when navbar not visible, so always hidden, then if width= mobile screen then block display
+
+map function is important. 
+make an index.js for constants
+max-sm:...... for smaller devices
+sm---> small devices
+max-sm:  extra small devices
+
+whichever things get re-rendered make them components:  ie reload karne ke baad ya click karne ke badd
